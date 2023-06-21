@@ -33,8 +33,7 @@ export default class App extends React.Component {
     return (
       <div>
         <h2>Todos</h2>
-        <TodoList todos={this.state.todos}
-        /> 
+        <TodoList todos={this.state.todos} /> 
         <Form/>
       </div>
     );
