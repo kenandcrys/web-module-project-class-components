@@ -9,7 +9,7 @@ export default class Todo extends React.Component {
   const todo = this.props.todo;
   return (
     <div key={todo.id}>
-      {todo.name} {todo.completed ? <span>- completed</span> : null}
+      {todo.name} 
     </div>
   );
 }
